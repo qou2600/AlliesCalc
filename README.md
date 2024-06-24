@@ -79,3 +79,10 @@ strength of 2.
 The job of the surivor selector is to take a quantity of `Hit`s and apply them to a force of units
 by selecting the surviors appropriately. For example, a `Not Submarine` hit cannot be applied to a
 submarine, and a `Not Aircraft` hit can't be applied to a fighter.
+
+### Install Instructions
+You need to have Rust & Node JS isntalled 
+
+Run "cargo build" in your AlliesCalc-master directory
+Run "wasm-pack build" in the wasm directory
+Run "npm install" then "ng serve" in the angular-app directory
